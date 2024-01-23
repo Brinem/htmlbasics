@@ -1,0 +1,51 @@
+
+table{
+    width: 100%;
+    font-family: "Droid Sans Fallback";
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    background-image: url("../css/brinem.png");
+}
+td,th{
+    border: 1px solid darkcyan;
+}
+h2{
+    text-align: center;
+    color: goldenrod;
+}
+h2:hover{
+    color: #1fee0e;
+    font-family: "Bitstream Charter";
+}
+th{
+    color: #227c22;
+}
+td{
+    color: blue;
+}
+table{
+    background-image: url("../css/brinem.png");
+}
+tr th{
+    text-align: left;
+}
+tr td{
+    text-align: left;
+}
+body{
+    background-image: url("../images/ter.jpg");
+}
+div{
+    width: 50%
+}
+h3{
+    text-align: left;
+    color: goldenrod;
+}
+h3:hover{
+    color: #1fee0e;
+}
+tr td:hover{
+    color: #8cf531;
+}

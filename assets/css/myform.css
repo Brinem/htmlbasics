@@ -1,0 +1,43 @@
+body{
+    font-family: "Bitstream Charter",sans-serif;
+    background-image: url("../css/brinom.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 170vh;
+}
+#form-container{
+    background-image: linear-gradient(#2b50e2,crimson,orange, #5b9109,darkgreen,darkblue);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    width: 400px;
+}
+.form-group{
+    margin-bottom: 16px;
+}
+label{
+    display: block;
+    margin: 8px;
+    font-weight: bold;
+}
+input[type="email"],input[type="text"],input[type="password"],textarea,select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+textarea{
+    height: 100px;
+}
+input[type="radio"],input[type="checkbox"]{
+    margin: 5px;
+}
+button{
+    padding: 5px;
+    color: dodgerblue;
+    text-decoration-color: gold;
+}

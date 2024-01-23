@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<h1>Sign UP</h1>
+<body>
+<form action="">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Enter first name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter last name"><br>
+    <label for="email">Email Address</label><br>
+
+    <input type="email" id="email" name="barua pepe" placeholder="@eg; example@gmail.com"><br>
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone"
+    placeholder="123-45-678"
+    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob" name="tarehe" placeholder="11/10/1997"><br>
+    <label for="pass">Password</label><br>
+    <input type="password" id="pass" name="neno la siri" placeholder="Eg, 25@$rctt!89"><br>
+    <label for="password-reenter"> Re-enter Password</label><br>
+    <input type="password" id="password-reenter" name="neno siri" placeholder="Re-enter Password"><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="custom">Custom</label>
+    <label for="Custom"></label><input type="radio" id="Custom" name="gender"><br><br>
+    <label for="course">Course Taken</label>
+    <select name="course" id="course">
+        <option value="full">Full Stack</option>
+        <option value="python">Python</option>
+        <option value="js">React js</option>
+        <option value="django">Django</option>
+        <option value="Bts">Bootstrap</option>
+        <option value="and">Android</option>
+        <option value="stats">Pure Statistics</option>
+    </select><br>
+    <label for="Uploadimage">Upload Image</label>
+    <input type="file" id="Uploadimage" size="50">
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Register"><input type="reset" value="Reset"><br>
+
+     <p class="fineprint">
+        <input class="form__checkbox" type="checkbox" id="agreement" name="agreement">
+         <label for="agreement">I am 13 years of age or older AND agree to the <a href="#">terms and services</a>.</label>
+    </p><br>
+
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: url("../css/brinem.png")
+}
+.cars{
+    border: 2px solid #1cf54a;
+    background-color: #23af17;
+    text-align: center;
+    font-family: "Droid Sans Fallback";
+    padding: 20px;
+    width: 100%;
+    background-image: url("../images/ball5.jpg");
+}
+.fruits{
+    width: 100%;
+    border: 2px solid #102241;
+    background-color: #983333;
+    text-align: center;
+    font-family: "Droid Sans Fallback";
+}
+.housing{
+    width: 100%;
+    border: 1px solid #1c3a69;
+    background-color: #ea30db;
+    text-align: center;
+    font-family: "Droid Sans Fallback";
+}
+.jeep{
+    width: 100%;
+    border: 1px solid #102241;
+    background-color: #f39b10;
+    text-align: center;
+    font-family: "Droid Sans Fallback";
+}
+.soccer{
+    width: 100%;
+    border: 1px solid #1a3d16;
+    background-color: #e5ca16;
+    text-align: center;
+    font-family: "Droid Sans Fallback";
+}
+#computers{
+    color: #22e322;
+    padding: 10px;
+    border: 2px dotted #47c70a;
+}
